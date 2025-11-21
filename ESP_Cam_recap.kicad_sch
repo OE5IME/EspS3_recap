@@ -145,6 +145,131 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:R_Small"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.016 1.016)
+					)
+				)
+			)
+			(property "Value" "R_Small"
+				(at 1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor, small symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_Small_0_1"
+				(rectangle
+					(start -0.762 1.778)
+					(end 0.762 -1.778)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_Small_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 0.762)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 0.762)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Diode:ESD9B3.3ST5G"
 			(pin_numbers
 				(hide yes)
@@ -1414,6 +1539,210 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "SamacSys_Parts:ECS-2532HS-400-3-G-TR"
+			(pin_names
+				(offset 0.762)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Y"
+				(at 34.29 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "ECS-2532HS-400-3-G-TR"
+				(at 34.29 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "ECS2532HS4003GTR"
+				(at 34.29 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://ecsxtal.com/store/pdf/ECS_2532HS.pdf"
+				(at 34.29 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "Standard Clock Oscillators 40.000 MHz 3.3V"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description_1" "Standard Clock Oscillators 40.000 MHz 3.3V"
+				(at 34.29 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Height" "1.1"
+				(at 34.29 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "520-2532HS-400-3-G"
+				(at 34.29 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/ECS/ECS-2532HS-400-3-G-TR?qs=5lHMIjPfuwJPbGR60BBcVw%3D%3D"
+				(at 34.29 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "ECS"
+				(at 34.29 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "ECS-2532HS-400-3-G-TR"
+				(at 34.29 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(symbol "ECS-2532HS-400-3-G-TR_0_0"
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "TRI-STATE"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 38.1 0 180)
+					(length 5.08)
+					(name "OUTPUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 38.1 -2.54 180)
+					(length 5.08)
+					(name "GROUND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "ECS-2532HS-400-3-G-TR_0_1"
+				(polyline
+					(pts
+						(xy 5.08 2.54) (xy 33.02 2.54) (xy 33.02 -5.08) (xy 5.08 -5.08) (xy 5.08 2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:GND"
 			(power)
 			(pin_numbers
@@ -1516,6 +1845,96 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "Power good w delay"
+		(exclude_from_sim no)
+		(at 90.932 66.04 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "3c392316-9f80-4f6a-ab61-da4f30c0277e")
+	)
+	(text "0402 or 0603\n(Swap with 22ohm if needed)"
+		(exclude_from_sim no)
+		(at 73.152 81.026 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "d4634c44-272b-490e-bd93-1c12e302133b")
+	)
+	(text "info zu xtal_N/P in field 11(doppelklick auf esc)"
+		(exclude_from_sim no)
+		(at 85.344 85.344 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "e38a7b83-92cf-4b61-b130-85f03e1932c0")
+	)
+	(text_box "as close to esp asp"
+		(exclude_from_sim no)
+		(at 13.97 69.85 0)
+		(size 76.2 39.37)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "32f122fe-58f5-48e6-9f41-6b7a4264b0d1")
+	)
+	(text_box "0,1+1uF SPI\na 0,1uf RTC&CPU\n10+1uF 3P3 eig Analog(MMC Con auf x gpio pins)"
+		(exclude_from_sim no)
+		(at 151.13 17.78 0)
+		(size 34.29 24.13)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "c8db481d-5076-423e-b35e-60e6d5d557dd")
+	)
+	(text_box "as close to clock asp"
+		(exclude_from_sim no)
+		(at 16.51 83.82 0)
+		(size 12.7 16.51)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "f8586718-e02b-4a1b-91e1-fae548a621f0")
+	)
 	(junction
 		(at 99.06 41.91)
 		(diameter 0)
@@ -1559,6 +1978,12 @@
 		(uuid "24faa1db-60c4-426d-b332-aad826407bff")
 	)
 	(junction
+		(at 31.75 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "51e083a7-ef52-4f74-bb4c-b9dc21c798ef")
+	)
+	(junction
 		(at 133.35 36.83)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1583,6 +2008,12 @@
 		(uuid "ad8a1a8f-0d5f-4617-acad-09d90626ff08")
 	)
 	(junction
+		(at 102.87 62.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d122c625-d97a-41a0-a353-5787d64fb80d")
+	)
+	(junction
 		(at 144.78 46.99)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1599,8 +2030,28 @@
 		(uuid "1d3e0bd1-7dee-4c07-9d9e-7c5b8875acaa")
 	)
 	(no_connect
+		(at 114.3 54.61)
+		(uuid "5c21eb8e-ad1a-46c4-976b-0c834085b7e2")
+	)
+	(no_connect
+		(at 114.3 74.93)
+		(uuid "6420718a-ec2d-4a34-acf0-3609378965cb")
+	)
+	(no_connect
+		(at 114.3 69.85)
+		(uuid "9d973d4e-168a-4d80-815d-a488dab06a20")
+	)
+	(no_connect
+		(at 114.3 67.31)
+		(uuid "a5544ca9-5e08-44fe-a81e-018d2740e570")
+	)
+	(no_connect
 		(at 149.86 49.53)
 		(uuid "d13ef51b-f297-4d60-a659-e4288f71c44f")
+	)
+	(no_connect
+		(at 31.75 96.52)
+		(uuid "e0eadab4-ec77-4561-80a1-64c5040b9f92")
 	)
 	(wire
 		(pts
@@ -1634,6 +2085,26 @@
 	)
 	(wire
 		(pts
+			(xy 69.85 77.47) (xy 71.12 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "27886d4d-342c-4ad2-86c0-93105c80503d")
+	)
+	(wire
+		(pts
+			(xy 31.75 93.98) (xy 31.75 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "29b81a29-9c62-4e24-ad61-631ed09f7701")
+	)
+	(wire
+		(pts
 			(xy 87.63 24.13) (xy 87.63 36.83)
 		)
 		(stroke
@@ -1664,6 +2135,16 @@
 	)
 	(wire
 		(pts
+			(xy 31.75 88.9) (xy 21.59 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4afb04b7-b7eb-44c9-97f6-b73fc7a5ec2c")
+	)
+	(wire
+		(pts
 			(xy 43.18 27.94) (xy 43.18 34.29)
 		)
 		(stroke
@@ -1671,6 +2152,16 @@
 			(type default)
 		)
 		(uuid "568eb85c-fc33-4bd3-a5d6-ba07f7c1bf8e")
+	)
+	(wire
+		(pts
+			(xy 31.75 88.9) (xy 31.75 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5af80143-7408-4dd2-94e1-54b48c10eb97")
 	)
 	(wire
 		(pts
@@ -1734,6 +2225,16 @@
 	)
 	(wire
 		(pts
+			(xy 76.2 77.47) (xy 83.82 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "81e6283c-f522-462d-9b7f-55d0eef91c37")
+	)
+	(wire
+		(pts
 			(xy 67.31 35.56) (xy 67.31 27.94)
 		)
 		(stroke
@@ -1741,6 +2242,26 @@
 			(type default)
 		)
 		(uuid "84310759-c183-46dd-96e7-4ad8f5a23ccf")
+	)
+	(wire
+		(pts
+			(xy 31.75 80.01) (xy 31.75 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "88565b15-28fe-4ee3-8536-65286c9d12e1")
+	)
+	(wire
+		(pts
+			(xy 69.85 77.47) (xy 69.85 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9334777f-49c9-4949-a21b-725cd367152b")
 	)
 	(wire
 		(pts
@@ -1784,6 +2305,16 @@
 	)
 	(wire
 		(pts
+			(xy 100.33 62.23) (xy 102.87 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c97b48a2-b28a-4565-931a-f698dcd46386")
+	)
+	(wire
+		(pts
 			(xy 147.32 49.53) (xy 147.32 46.99)
 		)
 		(stroke
@@ -1791,6 +2322,16 @@
 			(type default)
 		)
 		(uuid "cac8141e-042f-4a8b-a2ba-6ddbfde06966")
+	)
+	(wire
+		(pts
+			(xy 102.87 62.23) (xy 114.3 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf5707cc-f6d5-46e9-8384-aa53d0b2be99")
 	)
 	(wire
 		(pts
@@ -1854,6 +2395,16 @@
 	)
 	(wire
 		(pts
+			(xy 88.9 77.47) (xy 114.3 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f1924df6-45da-433b-b7a5-f721477e33cd")
+	)
+	(wire
+		(pts
 			(xy 123.19 41.91) (xy 110.49 41.91)
 		)
 		(stroke
@@ -1872,6 +2423,16 @@
 		)
 		(uuid "fcb0369d-2d5a-4005-a5b3-b35e7c286ef9")
 	)
+	(wire
+		(pts
+			(xy 91.44 62.23) (xy 95.25 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd767bb9-aded-4314-a199-7bcad330cc56")
+	)
 	(global_label "VOUT33"
 		(shape input)
 		(at 85.09 24.13 180)
@@ -1885,6 +2446,50 @@
 		(uuid "3f9b8ae8-9e1c-4bcd-a9d2-ae89bbe66c3b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 74.9686 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "PG"
+		(shape output)
+		(at 91.44 62.23 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7203de28-95cf-4ccb-a21f-cc8813cb0464")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 85.9148 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "VOUT33"
+		(shape input)
+		(at 31.75 76.2 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "942d1cd9-b165-4f2a-a5a8-f86a1d37abfd")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 21.6286 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2053,6 +2658,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 102.87 67.31 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1eaa9c5b-ca1b-4ae0-b027-eaa92ca19cc8")
+		(property "Reference" "#PWR09"
+			(at 102.87 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 102.87 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 102.87 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 102.87 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 102.87 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e2d3ed7f-d55a-471d-b54c-4f426280c1ba")
+		)
+		(instances
+			(project "ESP_Cam_recap"
+				(path "/010272fe-abaa-494d-8a8e-7f44b7fb0a92"
+					(reference "#PWR09")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Diode:ESD9B3.3ST5G")
 		(at 43.18 38.1 90)
 		(unit 1)
@@ -2117,6 +2788,151 @@
 			(project ""
 				(path "/010272fe-abaa-494d-8a8e-7f44b7fb0a92"
 					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SamacSys_Parts:ECS-2532HS-400-3-G-TR")
+		(at 31.75 93.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "38fe2994-2f37-47bf-b9f3-070f2dff0bdd")
+		(property "Reference" "Y1"
+			(at 50.8 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ECS-2532HS-400-3-G-TR"
+			(at 50.8 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ECS2532HS4003GTR"
+			(at 66.04 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://ecsxtal.com/store/pdf/ECS_2532HS.pdf"
+			(at 66.04 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Standard Clock Oscillators 40.000 MHz 3.3V"
+			(at 31.75 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "Standard Clock Oscillators 40.000 MHz 3.3V"
+			(at 66.04 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.1"
+			(at 66.04 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "520-2532HS-400-3-G"
+			(at 66.04 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/ECS/ECS-2532HS-400-3-G-TR?qs=5lHMIjPfuwJPbGR60BBcVw%3D%3D"
+			(at 66.04 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "ECS"
+			(at 66.04 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "ECS-2532HS-400-3-G-TR"
+			(at 66.04 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Field11" "The presence of two pins (XTAL_P and XTAL_N) is dictated by the internal circuitry required to drive a Passive Crystal, which is the default use case for the chip.  Here is the technical breakdown of the internal architecture: 1. The Internal Inverting Amplifier  Inside the ESP32-S3, located physically between pin 28 and pin 27, is a high-gain Inverting Transconductance Amplifier.      XTAL_P (Pin 28): This is the Input to the internal amplifier.      XTAL_N (Pin 27): This is the Output of the internal amplifier.  2. How a Passive Crystal Works (Closed Loop)  A passive quartz crystal does not generate a signal on its own; it is a piezoelectric resonator. To make it oscillate, it must be placed in a feedback loop (specifically, a Pierce Oscillator configuration).      The internal amplifier amplifies noise on the Input (P) and pushes it out the Output (N).      This signal travels through the external Crystal connected between N and P.      The Crystal acts as a precise band-pass filter and phase shifter. It feeds the signal back into the Input (P) at exactly 40 MHz.      The loop stabilizes, creating a continuous sine wave.  Therefore, two pins are required: one to \"listen\" to the crystal (XTAL_P) and one to \"drive\" the crystal (XTAL_N). 3. Why you leave XTAL_N floating with an Active Oscillator  When you use your ECS-2520SMV active oscillator:      The external oscillator generates the full 40 MHz signal power itself.      You connect this signal into the amplifier's Input (XTAL_P).      The internal amplifier still tries to invert this signal and output it on XTAL_N, but since nothing is connected there, the signal goes nowhere.      The internal clock distribution logic taps the signal before the amplifier output, so the chip receives the clock correctly from the XTAL_P line.  Summary  The chip has two pins to form a complete electrical circuit through a passive crystal. Since you are providing a signal externally, you break that loop, drive the input (P), and ignore the output (N)."
+			(at 31.75 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "d4b48755-1102-4655-be7e-5f8ccd5a6a59")
+		)
+		(pin "2"
+			(uuid "fc1da350-74df-497f-98fa-241c812edd51")
+		)
+		(pin "4"
+			(uuid "03765bd8-640b-4ff6-afd9-a5cb029f9afa")
+		)
+		(pin "1"
+			(uuid "46771a66-35a3-406b-b100-a0f822e536ba")
+		)
+		(instances
+			(project ""
+				(path "/010272fe-abaa-494d-8a8e-7f44b7fb0a92"
+					(reference "Y1")
 					(unit 1)
 				)
 			)
@@ -2253,6 +3069,212 @@
 			(project ""
 				(path "/010272fe-abaa-494d-8a8e-7f44b7fb0a92"
 					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 31.75 82.55 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "55fe5952-f522-47eb-9585-0acdd514b0be")
+		(property "Reference" "R12"
+			(at 34.29 81.2799 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 34.29 83.8199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 31.75 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 31.75 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 31.75 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "188d9f41-5877-403b-9d1b-3a9183ed7036")
+		)
+		(pin "2"
+			(uuid "0ef931f5-0f3e-410a-9f4a-f21e03f5c5b9")
+		)
+		(instances
+			(project "ESP_Cam_recap"
+				(path "/010272fe-abaa-494d-8a8e-7f44b7fb0a92"
+					(reference "R12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 86.36 77.47 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5a19a163-7bd0-4561-bcb0-73e079ef1b38")
+		(property "Reference" "C13"
+			(at 86.3663 71.12 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1nF"
+			(at 86.3663 73.66 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 86.36 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 86.36 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 86.36 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "0dd86178-bfec-4dc2-88be-60f39fb9988b")
+		)
+		(pin "1"
+			(uuid "cf5d129e-f66e-4a6a-9c56-47068ed0a667")
+		)
+		(instances
+			(project "ESP_Cam_recap"
+				(path "/010272fe-abaa-494d-8a8e-7f44b7fb0a92"
+					(reference "C13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 73.66 77.47 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5c252c6a-e83f-44ab-8257-4e086387ed2d")
+		(property "Reference" "R13"
+			(at 73.66 72.39 90)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "0"
+			(at 73.66 74.93 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 73.66 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 73.66 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 73.66 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f235e75c-29b0-47cf-b855-923e9f7a5d51")
+		)
+		(pin "2"
+			(uuid "ba3a07f2-a288-4a00-9fea-621c509755fa")
+		)
+		(instances
+			(project "ESP_Cam_recap"
+				(path "/010272fe-abaa-494d-8a8e-7f44b7fb0a92"
+					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -2630,6 +3652,206 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 69.85 96.52 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "79105046-99a3-4135-b210-132bc6b7b3a7")
+		(property "Reference" "#PWR024"
+			(at 69.85 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 69.85 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 69.85 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 69.85 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 69.85 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "88fd2fe2-896a-4f69-a9b4-a9a41e5cfb3d")
+		)
+		(instances
+			(project "ESP_Cam_recap"
+				(path "/010272fe-abaa-494d-8a8e-7f44b7fb0a92"
+					(reference "#PWR024")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 21.59 93.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7ab596f1-4479-421c-8d5c-a02d8362ca6f")
+		(property "Reference" "#PWR023"
+			(at 21.59 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 21.59 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 21.59 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 21.59 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 21.59 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "01d98610-dc70-4190-8661-aac88722653d")
+		)
+		(instances
+			(project "ESP_Cam_recap"
+				(path "/010272fe-abaa-494d-8a8e-7f44b7fb0a92"
+					(reference "#PWR023")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 97.79 62.23 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9b3f507e-15f8-40d9-bbaa-73b7392dd7ef")
+		(property "Reference" "R4"
+			(at 97.79 57.15 90)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 97.79 59.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 97.79 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 97.79 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 97.79 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "eeb74644-6511-4773-81f6-43e9497271e4")
+		)
+		(pin "2"
+			(uuid "46663bcd-3f34-45f8-a15e-7d4224d23cc4")
+		)
+		(instances
+			(project "ESP_Cam_recap"
+				(path "/010272fe-abaa-494d-8a8e-7f44b7fb0a92"
+					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 123.19 39.37 0)
 		(unit 1)
@@ -2839,8 +4061,148 @@
 			)
 		)
 	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 21.59 91.44 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c7aa6a79-8ae0-4a47-a519-8b786b3a88ff")
+		(property "Reference" "C14"
+			(at 24.13 90.1762 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1uF"
+			(at 24.13 92.7162 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 21.59 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 21.59 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 21.59 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "9db8c443-2589-45c5-9c5b-c2c618e7dafe")
+		)
+		(pin "1"
+			(uuid "96b26907-aabb-4732-ad80-f276b1628dbe")
+		)
+		(instances
+			(project "ESP_Cam_recap"
+				(path "/010272fe-abaa-494d-8a8e-7f44b7fb0a92"
+					(reference "C14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 102.87 64.77 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d93603da-8ad7-4fce-a05c-1ad7066f7b54")
+		(property "Reference" "C9"
+			(at 105.41 63.5062 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1uF"
+			(at 105.41 66.0462 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 102.87 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 102.87 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 102.87 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e937867c-1562-4a79-bfbf-a3669bcf8434")
+		)
+		(pin "1"
+			(uuid "b3d69a81-02e8-4ddc-9cd6-8cbdff92b365")
+		)
+		(instances
+			(project "ESP_Cam_recap"
+				(path "/010272fe-abaa-494d-8a8e-7f44b7fb0a92"
+					(reference "C9")
+					(unit 1)
+				)
+			)
+		)
+	)
 	(sheet
-		(at 33.02 69.85)
+		(at 21.59 179.07)
 		(size 21.59 8.89)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2856,7 +4218,7 @@
 		)
 		(uuid "f18f02f8-7dd6-4603-9989-fdd902cc761e")
 		(property "Sheetname" "power"
-			(at 33.02 69.1384 0)
+			(at 21.59 178.3584 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2865,7 +4227,7 @@
 			)
 		)
 		(property "Sheetfile" "power.kicad_sch"
-			(at 33.02 79.3246 0)
+			(at 21.59 188.5446 0)
 			(effects
 				(font
 					(size 1.27 1.27)
